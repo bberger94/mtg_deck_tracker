@@ -1,0 +1,100 @@
+1 Mishra, Eminent One (BRC) 1 *F*
+1 Academy Ruins (MMA) 219
+1 Aggravated Assault (ONS) 185
+1 Ancient Tomb (TMP) 315
+1 Arcane Signet (SLD) 589 *E*
+1 Astral Cornucopia (BRR) 5 *F*
+1 Blasphemous Act (BRC) 113
+1 Blood Crypt (RTR) 238
+1 Bloodstained Mire (ONS) 313
+1 Chaos Warp (BRC) 114
+1 Command Tower (BRC) 178
+1 Commander's Sphere (BRC) 135
+1 Contagion Engine (PLST) SOM-145
+1 Coveted Jewel (PLST) C18-54
+1 Crumbling Necropolis (BRC) 179
+1 Cursed Mirror (BRC) 115
+1 Cyberdrive Awakener (NEC) 12
+1 Cyclonic Rift (RTR) 35
+1 Damnation (MM3) 63
+1 Daretti, Ingenious Iconoclast (CN2) 74
+1 Daretti, Scrap Savant (PLST) C14-33
+1 Darksteel Citadel (C18) 241
+1 Darksteel Ingot (CMD) 245
+1 Dimir Signet (SLD) 287 *E*
+1 Drossforge Bridge (BRC) 183
+1 Faithless Looting (BRC) 116
+1 Feed the Swarm (BRC) 106
+1 Fellwar Stone (BRC) 141
+1 Flux Channeler (WAR) 52 *F*
+1 Gilded Lotus (BRR) 80 *F*
+1 Goblin Engineer (TSR) 345
+1 Goblin Welder (ULG) 80
+1 Great Furnace (BRC) 187
+1 Grim Monolith (ULG) 126
+1 Ichor Wellspring (BRC) 143
+1 Ichormoon Gauntlet (ONE) 56 *F*
+1 Inexorable Tide (SOM) 35
+2 Island (MMQ) 335 *F*
+2 Island (MMQ) 336 *F*
+1 Island (7ED) 332★ *F*
+1 Izzet Signet (SLD) 293 *E*
+1 Jeska's Will (CLB) 799
+1 Liquimetal Torque (MH2) 428 *E*
+1 Mana Crypt (PHPR) 5
+1 Mana Vault (5ED) 388
+1 Mephitic Draught (LCI) 112
+1 Mind Stone (BRC) 148
+1 Mirrex (ONE) 254
+1 Mistvault Bridge (BRC) 189
+3 Mountain (7ED) 338★ *F*
+1 Mycosynth Wellspring (BRC) 150
+1 Nihil Spellbomb (BRC) 152
+1 Otawara, Soaring City (NEO) 271
+1 Polluted Delta (KTK) 239
+1 Portal to Phyrexia (BRO) 240
+1 Prologue to Phyresis (ONE) 65 *F*
+1 Rakdos Signet (SLD) 289 *E*
+1 Reliquary Tower (BRC) 196
+1 Saheeli, Sublime Artificer (WAR) 234
+1 Sai, Master Thopterist (NEC) 97
+1 Scalding Tarn (ZEN) 223
+1 Scrap Mastery (CM2) 116
+1 Seat of the Synod (BRC) 198
+1 Shipwreck Marsh (MID) 267
+1 Shivan Reef (M15) 246
+1 Silverbluff Bridge (BRC) 200
+1 Skyclave Relic (ZNR) 252 *F*
+1 Sol Ring (BRC) 160
+1 Spine of Ish Sah (BRC) 162
+1 Steam Vents (RTR) 247
+1 Stormcarved Coast (VOW) 265
+1 Sulfurous Springs (DMU) 381
+1 Swamp (7ED) 348★ *F*
+2 Swamp (BRC) 33
+1 Talisman of Creativity (H1R) 34 *F*
+1 Talisman of Dominance (MRD) 253 *F*
+1 Talisman of Indulgence (SLD) 1054 *E*
+1 Tezzeret the Schemer (AER) 137
+1 Tezzeret the Seeker (DDF) 39 *F*
+1 Tezzeret, Agent of Bolas (MED) GR7 *F*
+1 Tezzeret, Artifice Master (M19) 79 *F*
+1 Tezzeret, Betrayer of Flesh (NEO) 84 *F*
+1 Tezzeret, Master of the Bridge (WAR) 275 *F*
+1 Tezzeret's Gambit (NPH) 47 *F*
+1 Third Path Iconoclast (BRO) 223 *F*
+1 Thirst for Knowledge (BRC) 96
+1 Thoughtcast (BRC) 99
+1 Throne of Geth (2XM) 301 *F*
+1 Tithing Blade / Consuming Sepulcher (LCI) 128
+1 Underground River (ICE) 362
+1 Urza's Saga (PLST) MH2-259
+1 Vault of Whispers (BRC) 211
+1 Watery Grave (GTC) 249
+1 Whir of Invention (AER) 49
+1 Xander's Lounge (SNC) 260
+
+SIDEBOARD:
+1 Prized Statue (CLB) 334
+1 The Chain Veil (CMM) 943
+1 Thought Monitor (BRC) 98
