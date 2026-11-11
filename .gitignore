@@ -1,3 +1,5 @@
 .env
 __pycache__
+digest.txt
+diff.txt
 cache.json

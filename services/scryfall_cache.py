@@ -36,8 +36,8 @@ def get_card_info(card_name, set_code, collector_number):
     # Clean collector number (strip trailing foil markers like *F* or symbols like ★)
     clean_col = collector_number.split()[0].replace("★", "")
     
-    card_data = {"image_uri": None, "type_line": "Unknown"}
-    
+    card_data = {"image_uri": None, "type_line": "Unknown", "cmc": 0.0, "scryfall_uri": ""}    
+
     # 1. Try direct set + collector number lookup
     url = f"{SCRYFALL_API_BASE}/cards/{set_code.lower()}/{clean_col.lower()}"
     response = requests.get(url, headers=headers)
@@ -46,6 +46,9 @@ def get_card_info(card_name, set_code, collector_number):
     if response.status_code == 200:
         data = response.json()
         card_data["type_line"] = data.get("type_line", "Unknown")
+        card_data["cmc"] = float(data.get("cmc", 0.0))
+        card_data["scryfall_uri"] = data.get("scryfall_uri", "")
+        
         if "image_uris" in data:
             card_data["image_uri"] = data["image_uris"].get("normal")
         elif "card_faces" in data and "image_uris" in data["card_faces"][0]:
@@ -59,6 +62,8 @@ def get_card_info(card_name, set_code, collector_number):
         if fallback_response.status_code == 200:
             data = fallback_response.json()
             card_data["type_line"] = data.get("type_line", "Unknown")
+            card_data["cmc"] = float(data.get("cmc", 0.0))
+            card_data["scryfall_uri"] = data.get("scryfall_uri", "")
             if "image_uris" in data:
                 card_data["image_uri"] = data["image_uris"].get("normal")
             elif "card_faces" in data and "image_uris" in data["card_faces"][0]:
@@ -70,11 +75,11 @@ def get_card_info(card_name, set_code, collector_number):
 
 def get_primary_type(type_line):
     tl = type_line.lower()
+    if "land" in tl: return "Lands"
     if "planeswalker" in tl: return "Planeswalkers"
     if "creature" in tl: return "Creatures"
     if "sorcery" in tl: return "Sorceries"
     if "instant" in tl: return "Instants"
     if "artifact" in tl: return "Artifacts"
     if "enchantment" in tl: return "Enchantments"
-    if "land" in tl: return "Lands"
     return "Other"

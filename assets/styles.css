@@ -108,7 +108,7 @@ body {
 
 .action-input {
     height: 100%;
-    width: 140px;
+    width: 240px;
     padding: 0 12px;
     border: none;
     outline: none;
@@ -211,7 +211,7 @@ body {
 /* --- Masonry Deck Columns & Cards --- */
 .deck-columns-container {
     width: 100%;
-    column-width: 210px;
+    column-width: 280px;
     column-gap: 16px;
 }
 
@@ -239,9 +239,9 @@ body {
 
 .card-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Aligns qty with the first line of wrapped text */
     gap: 8px;
-    padding: 3px 6px;
+    padding: 4px 6px;
     font-size: 0.85rem;
     border-radius: 4px;
     cursor: pointer;
@@ -260,7 +260,66 @@ body {
 
 .card-name {
     color: #1e293b;
+    white-space: normal;      
+    word-break: break-word;   
+}
+
+/* Header Button Standardizations */
+.header-btn {
+    border-radius: 6px;
+    height: 36px;
+}
+
+/* Manage Deck Dropdown Toggle Styling */
+.manage-deck-toggle {
+    height: 100%;
+    padding: 0 14px;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    transition: background-color 0.15s ease;
+}
+
+/* Bulk Add Text Area */
+.bulk-textarea {
+    height: 250px;
+}
+
+/* Deck Display Card Link */
+.card-link {
+    display: flex;
+    gap: 8px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Delete Card Button */
+.delete-btn {
+    border: none;
+    background: none;
+    color: #ef4444;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: #b91c1c; /* Darker red on hover */
+}
+/* Card Search Input in Toolbar */
+.add-card-search {
+    width: 220px;
+    height: 100%;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.15s ease;
+
 }

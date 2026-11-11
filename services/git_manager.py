@@ -69,3 +69,25 @@ def commit_changes(deck_path, commit_message):
         return f"Successfully committed: '{commit_message}'"
     except Exception as e:
         return f"Error committing: {str(e)}"
+
+def init_deck_repo(deck_path):
+    """Initializes a new Git repository at the given path."""
+    try:
+        return git.Repo.init(deck_path)
+    except Exception:
+        return None
+
+def merge_branch(deck_path, branch_to_merge):
+    import git # Ensure gitpython is imported at top of file
+    try:
+        repo = git.Repo(deck_path)
+        # Attempt to merge the target branch into the current active branch
+        repo.git.merge(branch_to_merge)
+        return True, f"Successfully merged '{branch_to_merge}' into current branch."
+    except Exception as e:
+        # If a conflict or error occurs, abort the merge to keep the repo clean
+        try:
+            repo.git.merge("--abort")
+        except:
+            pass
+        return False, f"Merge failed (conflict or error): {str(e)}"

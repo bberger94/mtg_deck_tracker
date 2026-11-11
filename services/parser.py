@@ -20,6 +20,7 @@ def parse_deck(file_path):
                 qty, name, set_code, col_num, tags = match.groups()
                 deck[current_section].append({
                     "qty": int(qty), "name": name, 
-                    "set": set_code, "number": col_num
+                    "set": set_code, "number": col_num,
+                    "tags": tags  # <-- Save the tags
                 })
     return deck
